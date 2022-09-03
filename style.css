@@ -1,0 +1,550 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Index/Home Page & Stuff Used Throughout The Site */
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgb(185, 159, 40);
+  color: black;
+}
+
+#logo {
+  font-size: 25px;
+  color: white;
+  float: left;
+  padding-left: 25px;
+}
+
+#homeshowcase{
+  padding:50px 50px 50px 30px ;
+  background-color: #0a0a0a;
+  font-size: 45px;
+}
+
+#homeshowcase h1{
+  color: white;
+  text-shadow:  -2px 0px 4px black, 0px -2px 4px black, 0px 2px 4px black, 2px 0px 2px black;
+  margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.listthing{
+   background-color: #0a0a0a;
+   padding: 30px 1px 10px 60px;
+   color: white;
+   text-shadow:  -2px 0px 4px black, 0px -2px 4px black, 0px 2px 4px black, 2px 0px 2px black;
+}
+
+.lists{
+  padding: 10px;
+  font-size: 30px;
+}
+
+.listhead{
+  padding: 0px 10px 0px 10px
+}
+
+.listtext{
+  padding-left: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+}
+
+.IndexOLshowcase{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
+.OLimage{
+float: left;
+}
+
+.OLHeading{
+  font-size: 30px;
+  font-style: bold;
+  text-align: left;
+  align-items: center;
+  justify-items: center;
+  float: center;
+}
+
+.OLPtext{
+  font-size: 20px;
+  float: left;
+  position: relative;
+  padding-bottom: 20px;
+  
+ 
+}
+
+
+.OLButton{
+  padding-top: 20px;
+  font-size:18px;
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  border:rgb(0, 31, 66);
+  padding:10px 20px;
+  margin-top:20px;
+  background: rgb(0, 0, 0);
+
+  
+}
+
+.IndexCshowcase{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 3rem;
+}
+
+.Cimage{
+float: left;
+}
+
+.CHeading{
+  font-size: 30px;
+  font-style: bold;
+  text-align: left;
+  align-items: center;
+  justify-items: center;
+  float: center;
+}
+
+.CPtext{
+  font-size: 20px;
+  float: left;
+  position: relative;
+  padding-bottom: 20px;
+  
+ 
+}
+
+.button{
+  position: relative;
+padding:30px ; 
+ display:inline-block block;
+}
+
+.CButton{
+  padding-top: 20px;
+  font-size:18px;
+  text-decoration:none;
+  color:rgb(255, 255, 255);
+  border:rgb(0, 31, 66);
+  padding:10px 20px;
+  margin-top:20px;
+  background: rgb(0, 0, 0);
+
+  
+}
+
+.FTexts{
+  margin-left: 55px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 25px;
+}
+
+/* Index Page End */
+
+/* About Page */
+
+.AShowcase{
+  padding:50px 50px 50px 30px ;
+  background-color: #0a0a0a;
+  font-size: 30px;
+}
+
+.AShowcase h1{
+  color: white;
+  text-shadow:  -2px 0px 4px black, 0px -2px 4px black, 0px 2px 4px black, 2px 0px 2px black;
+}
+
+.ASImage{
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
+.AWhoTexts{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.AWhoHead{
+  padding-left: 100px;
+  font-size: 40px;
+}
+
+.AWhoInfo{
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.AWhoPText{
+  padding-left: 100px;
+  font-size: 25px;
+}
+
+.AWhoInfoC1{
+  display: grid;
+  grid-row-gap:130px;
+  grid-column-gap: 50px;
+}
+
+.ASHeading h1{
+  padding-left: 35px;
+}
+
+.AWhoInfoC1R1{
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.AWhoInfoC1R2{
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.AWhoInfoC2{
+  display: grid;
+  grid-row-gap:130px;
+  grid-column-gap: 50px;
+}
+
+.AWhoInfoC2R1{
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.AWhoInfoC2R2{
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.AWhoInfoColumns{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+
+}
+
+.AWhoInfoCBigNumber{
+  font-size: 55px;
+}
+
+.AWhoInfoCBigNumberDesc{
+  font-size: 25px;
+}
+
+.AWhatTexts{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.AWhatHead{
+  padding-left: 100px;
+  font-size: 40px;
+}
+
+.AWhatPText {
+    padding-left: 100px;
+    font-size: 25px;
+}
+
+.AWhatInfo{
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap:50px; 
+    grid-template-columns: repeat(2,1fr);
+}
+
+.AWhatInfoColumn{
+  font-size: 25px;
+}
+
+/* About Page End */
+
+/* Career Page */
+
+.CShowcase{
+  padding:5px 50px 50px 30px ;
+  background-color: #0a0a0a;
+  font-size: 30px;
+}
+
+.CShowcase h1{
+  color: white;
+  text-shadow:  -2px 0px 4px black, 0px -2px 4px black, 0px 2px 4px black, 2px 0px 2px black;
+}
+
+.CSHeading h1{
+padding-left: 35px;
+}
+
+.CSImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.CJob{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: stretch;
+    padding: 35px 10px 35px 10px;
+}
+
+.CJText{
+  display: block;
+  
+}
+
+.CJText p{
+    font-size: 22px;
+
+}
+
+.CJButton{
+  padding-left: 150px;
+}
+
+.CJActualButton{
+  color: #fff;
+    background-color: #000;
+
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    min-height: 5px;
+    padding: 15px 5px 15px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    line-height: 16px;
+    cursor: pointer;
+    background-image: none;
+    align-content: space-around;
+    word-break: keep-all;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+.CJButtonText{
+  display: block;
+    pointer-events: none;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.CWhyTexts{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 35px;
+}
+
+.CWhyHead{
+  padding-left: 100px;
+  font-size: 40px;
+}
+
+.CWhyInfo{
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.CWhyPText{
+  padding-left: 100px;
+  font-size: 25px;
+}
+
+.CWhyInfoC1{
+  display: grid;
+  grid-row-gap:130px;
+  grid-column-gap: 50px;
+}
+
+
+.CWhyInfoC1R1{
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.CWhyInfoC1R2{
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.CWhyInfoC2{
+  display: grid;
+  grid-row-gap:130px;
+  grid-column-gap: 50px;
+}
+
+.CWhyInfoC2R1{
+  display: grid;
+  grid-row-gap: 15px;
+}
+
+.CWhyInfoC2R2{
+  display: grid;
+  grid-row-gap: 10px;
+}
+
+.CWhyInfoColumns{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+
+}
+
+.CWhyInfoCBigNumber{
+  font-size: 55px;
+}
+
+.CWhyInfoCBigNumberDesc{
+  font-size: 25px;
+}
+
+/* Career Page End */
+
+/* Contact Page */
+
+#CUShowcase{
+  padding:50px 50px 50px 30px ;
+  background-color: black;
+  font-size: 30px;
+}
+
+.CUSRow{
+display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px 10px 20px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: stretch;
+    background-color: rgb(0, 0, 0);
+}
+
+.CUSTexts{
+  color: rgb(255, 255, 255);
+}
+
+.CUSTHeading{
+  font-size: 50px;
+
+}
+
+.CUSTText{
+  font-size: 25px;
+}
+
+.CUSButton{
+  display: flex;
+  justify-content: flex-end;
+  padding:20px 40px 20px 40px;
+  background: rgb(255, 255, 255);
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.CUSActualButton{
+  color: rgb(255, 255, 255);
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+  font-size:18px;
+  text-decoration:none;
+  border:rgb(0, 0, 0);
+  padding:10px 20px;
+  border-radius:1px;
+  background: rgb(0, 0, 0)
+}
+
+.CUIStuff{
+  margin-left: auto;
+  background-color: rgb(233, 233, 233)
+}
+
+.CUISRow1{
+  display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: stretch;
+}
+
+.CUISRow1 h2{
+  font-size: 35px;
+}
+
+.CUISRow2{
+  display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1440px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: stretch;
+    }
+
+
+.CUISRLILabels{
+  font-size: 25px;
+  font-weight: 25px
+}
+
+.CUISRLIText{
+  font-size: 17px;
+}
+
